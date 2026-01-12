@@ -1,9 +1,6 @@
 {
     "name": "Node.js Dev Environment",
     "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-    "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:1": {}
-    },
     "customizations": {
         "vscode": {
             "extensions": ["dbaeumer.vscode-eslint", "eamodio.gitlens"]
